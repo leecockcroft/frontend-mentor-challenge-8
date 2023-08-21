@@ -214,7 +214,9 @@ main {
 }
 
 .number{
-  font-size:6em;
+  font-size: 9em;
+  font-weight: 900;
+}
 }
 
 .header-container p {
@@ -240,6 +242,15 @@ header h3 {
 
 .main-container h3 {
   font-size:2.6rem;
+}
+
+.row span {
+  font-size:1.5em;
+  font-weight:500;
+}
+
+.row img {
+  margin-right:1em;
 }
 
 }
