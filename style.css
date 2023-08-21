@@ -105,9 +105,12 @@ header h3{
 
 .row {
   display: flex;
-      background: hsl(241, 100%, 89%);
+
       padding: 2em;
-      background: var(--Paleblue);
+
+
+
+
 align-items:center;
     font-size: 1.4rem;
     margin: 1.4em 0;
@@ -120,29 +123,29 @@ align-items:center;
 }
 
 .row span:nth-child(1){
-  padding-left: 1.2em;
+
 font-size: 1.7rem;
 
 }
 
 .reaction{
   color:var(--Lightred);
-  background:hsl(0, 100%, 67%, 0.05);
+  background: hsl(0, 100%, 67%,2.8%);
 }
 
 .memory{
   color:var(--Orangeyellow);
-  background-color: hsla(39, 100%, 56%, 0.05);
+  background-color: hsla(39, 100%, 56%, 2.8%));
 }
 
 .verbal{
   color:var(--Greenteal);
-  background-color: hsl(166, 100%, 37%, 0.05)
+  background-color: hsl(39, 100%, 56%,2.8%);
 }
 
 .visual {
   color:var(--Cobaltblue);
-  background-color: hsl(234, 85%, 45%, 0.05);
+  background-color:hsl(234, 85%, 45%,2.8%);
 }
 
 
@@ -156,8 +159,8 @@ font-size: 1.7rem;
     border:none;
 }
 
-button{
-
+.lighter{
+color: var(--Darkgrayblue);
 }
 
 
@@ -194,15 +197,28 @@ height: 100%;
 
 header{
   border-radius:5rem;
-  width:50%;
+  width:51.3888%;
 
 
 }
 
+
+.main-container button {
+  font-size: 1.8rem;
+  padding: 1em;
+  margin-top: 3em;
+
+
+
+
+}
 main {
   flex:1;
 }
 
+.last-item {
+      margin-right: 0.6em;
+}
 
 .circle{
   width:26em;
@@ -217,7 +233,7 @@ main {
   font-size: 9em;
   font-weight: 900;
 }
-}
+
 
 .header-container p {
   font-size:1.8rem;
@@ -244,13 +260,25 @@ header h3 {
   font-size:2.6rem;
 }
 
+.row {
+
+
+align-items: center;
+font-size: 1.4rem;
+
+
+
+PADDING: 1.1em 0 1.1em 0;
+}
+
 .row span {
   font-size:1.5em;
   font-weight:500;
 }
 
 .row img {
-  margin-right:1em;
+  margin-right: 1.2em;
+  margin-left: 1.2em;
 }
 
 }
